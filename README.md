@@ -1,61 +1,78 @@
+# Thirdweb Next.js Integration Demo
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+A professional demonstration of thirdweb SDK integration with Next.js, featuring wallet connectivity and form submission capabilities.
 
-# thirdweb-next-starter
+🔗 [Live Demo](https://demo-thirdweb-eta.vercel.app/)
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+## Features
 
-## Installation
+### Core Functionality
+- **Wallet Integration**: Seamless crypto wallet connectivity using thirdweb ConnectButton
+- **Smart Form Handling**: Dynamic form visibility based on wallet connection status
+- **State Management**: Efficient wallet connection state and address management using React hooks
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+### Form Components
+- **User Information Collection**:
+  - Name
+  - Email
+  - Wallet Address (auto-populated)
+  - Role
+  - Remarks
+- **Security**: Read-only wallet address field to prevent tampering
+
+### Technical Implementation
+- ⚡ Client-side rendering with Next.js
+- 🔒 Sepolia testnet integration
+- 💰 Gas sponsorship functionality
+- 🎨 Responsive Tailwind CSS styling
+- 📱 Mobile-first design approach
+- 🔧 TypeScript for enhanced development
+
+### UI Components
+- **Header**: Professional branding with thirdweb and Next.js logos
+- **Resource Section**: Curated links to documentation and tools
+- **Article Cards**: Reusable components for resource display
+
+## Technology Stack
+
+- **Frontend**: Next.js
+- **Styling**: Tailwind CSS
+- **Blockchain**: thirdweb SDK
+- **Language**: TypeScript
+- **Network**: Sepolia Testnet
+
+## Design Features
+
+- Dark theme with zinc/blue color scheme
+- Responsive layout
+- Interactive hover states
+- Professional typography
+- Consistent spacing and alignment
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
 
 ```bash
-  npx thirdweb create app --next
+npm install
+# or
+yarn install
 ```
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file:
-
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
-
+3. Run the development server:
 ```bash
-yarn
-```
-
-Start development server
-
-```bash
+npm run dev
+# or
 yarn dev
 ```
 
-Create a production build
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-yarn build
-```
+## Contributing
 
-Preview the production build
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-```bash
-yarn start
-```
+## License
 
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
-# demoThirdweb
-# demoThirdweb
+This project is licensed under the MIT License - see the LICENSE file for details.
